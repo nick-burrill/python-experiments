@@ -1,3 +1,4 @@
+#needs to be ran on python 3.8.6 and above
 import time
 import math
 

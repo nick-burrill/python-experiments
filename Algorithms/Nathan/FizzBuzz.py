@@ -24,7 +24,7 @@ while LN < 99:
 	elif int((LN+1)/5) == (LN+1)/5:
 		list[LN] = str("Buzz")
 		print ("found buzz")
-
+		
 	LN = LN + 1
 
 print (list)

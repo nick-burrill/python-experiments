@@ -16,6 +16,7 @@ jeff.shape("turtle")
 jeff.color("darkgreen")
 jeff.pencolor("black")
 
+
 if skipframe == True:
 	JS = (random.uniform(100 / fps, 130 / fps)) #jeff's speed
 
@@ -27,6 +28,7 @@ if skipframe == True:
 		jeff.forward(JS)
 		time.sleep(1/fps)
 		print (JS)
+
 
 if skipframe == False:
 	JS = (random.uniform(100 / nativefps, 130 / nativefps)) #jeff's speed

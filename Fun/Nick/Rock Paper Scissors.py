@@ -5,7 +5,7 @@ import random
 # We should keep track of who gave us the input to declare them as winner
 
 
-def printOutputs():
+def printOutputs():  # Only used for clarification
     rock = 0
     paper = 1
     scissors = 2
